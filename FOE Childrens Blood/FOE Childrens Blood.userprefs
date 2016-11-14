@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\FOE_Characters\Scripts\GameCanvas.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" Line="51" Column="55" />
+      <File FileName="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" Line="30" Column="12" />
+      <File FileName="Assets\Resources\FOE_Characters\Scripts\CameraFacingBillboard.cs" Line="19" Column="44" />
+      <File FileName="Assets\Resources\FOE_Characters\Scripts\VisorSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\FOE_Characters\Spells\Scripts\Classes\SpellList.cs" Line="120" Column="5" />
+      <File FileName="Assets\Resources\FOE_Characters\Spells\Scripts\Classes\FireballSpell.cs" Line="61" Column="27" />
+      <File FileName="Assets\Resources\FOE_Characters\Scripts\SkillCanvas.cs" Line="70" Column="34" />
+      <File FileName="Assets\Resources\FOE_Characters\Scripts\Attributes.cs" Line="65" Column="67" />
+      <File FileName="Assets\Resources\FOE_Characters\Scripts\GameCanvas.cs" Line="33" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
