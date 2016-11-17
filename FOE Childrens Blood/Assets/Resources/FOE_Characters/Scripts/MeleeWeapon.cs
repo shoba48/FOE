@@ -43,7 +43,7 @@ public class MeleeWeapon : MonoBehaviour
 				)
 			{
 				Debug.Log (animInfo.normalizedTime % 1);
-				otherAttr.AddLifePoints (-thisAttr.strenght);
+				otherAttr.AddLifePoints (-thisAttr.strength);
 			}
 		}
 	}

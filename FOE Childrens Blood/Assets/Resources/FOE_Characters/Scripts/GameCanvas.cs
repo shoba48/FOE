@@ -27,7 +27,7 @@ public class GameCanvas : MonoBehaviour {
 		bars["Healthbar"].value = attr.LifePoints;
 		bars["Manabar"].maxValue = attr.maxMana;
 		bars["Manabar"].value = attr.Mana;
-		bars["Strenghtbar"].maxValue = attr.maxStrenght;
-		bars["Strenghtbar"].value = attr.strenght;
+		bars["Strenghtbar"].maxValue = attr.maxStrength;
+		bars["Strenghtbar"].value = attr.strength;
 	}
 }

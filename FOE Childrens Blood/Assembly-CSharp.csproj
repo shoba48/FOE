@@ -503,6 +503,10 @@
      <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Scripts\SfxrParams.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Scripts\SfxrSynth.cs" />
      <Compile Include="Assets\Fungus\Thirdparty\iTween\iTween.cs" />
+     <Compile Include="Assets\GameControl\EnviromentDataCollecter.cs" />
+     <Compile Include="Assets\GameControl\GameControl.cs" />
+     <Compile Include="Assets\GameControl\PlayerDataCollecter.cs" />
+     <Compile Include="Assets\GameControl\TraverseScreenScript.cs" />
      <Compile Include="Assets\RPG Character Animation Pack\Code\CameraController.cs" />
      <Compile Include="Assets\RPG Character Animation Pack\Code\RPGCharacterControllerFREE.cs" />
      <Compile Include="Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs" />

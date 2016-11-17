@@ -42,8 +42,8 @@ public class SkillCanvas : MonoBehaviour {
 		attrDic["Mana"].text = "Mana" + "\n"
 			+ attr.Mana.ToString() + " / " +	attr.maxMana + "\n"
 			+ "Exp : " + "0"; // later
-		attrDic["Strenght"].text = "Strenght" + "\n"
-			+ attr.strenght.ToString() + " / " +	attr.maxStrenght + "\n"
+		attrDic["Strength"].text = "Strenght" + "\n"
+			+ attr.strength.ToString() + " / " +	attr.maxStrength + "\n"
 			+ "Exp : " + "0"; // later
 		attrDic["Mana Charge Speed"].text = "Mana Charge Speed" + "\n"
 			+ attr.chargeSpeed;

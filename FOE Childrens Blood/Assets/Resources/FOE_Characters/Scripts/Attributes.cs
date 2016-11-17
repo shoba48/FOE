@@ -14,8 +14,8 @@ public class Attributes : MonoBehaviour
 
 	public float chargeSpeed = 1;
 
-	public float strenght = 20;
-	public float maxStrenght = 20;
+	public float strength = 20;
+	public float maxStrength = 20;
 
     public bool alive = true;
 
@@ -92,7 +92,7 @@ public class Attributes : MonoBehaviour
 	// stor this out to Character
 	public float GetDamage ()
 	{
-		return strenght;
+		return strength;
 	}
 
 	public void SetAttribute(string attribute, float value)
@@ -101,8 +101,24 @@ public class Attributes : MonoBehaviour
 		else if (attribute == "MaxLifePoints") maxLifePoints = value;
 		else if (attribute == "Mana") Mana = value;
 		else if (attribute == "MaxMana") maxMana = value;
-		else if (attribute == "Strenght") strenght = value;
-		else if (attribute == "MaxStrenght") maxStrenght = value;
+		else if (attribute == "Strenght") strength = value;
+		else if (attribute == "MaxStrenght") maxStrength = value;
 		else if (attribute == "ChargeSpeed") chargeSpeed = value;
+	}
+
+
+
+
+	public static AttributesSA ToSA(Attributes attr)
+	{
+		AttributesSA attrSA = new AttributesSA();
+		attrSA.lifePoints = attr.LifePoints;
+		attrSA.maxLifePoints = attr.maxLifePoints;
+		attrSA.mana = attr.Mana;
+		attrSA.maxMana = attr.maxMana;
+		attrSA.strength = attr.strength;
+		attrSA.maxStrength = attr.maxStrength;
+		attrSA.chargeSpeed = attr.chargeSpeed;
+		return attrSA;
 	}
 }
